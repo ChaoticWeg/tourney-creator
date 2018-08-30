@@ -1,4 +1,5 @@
 const express = require('express');
+const morgan  = require('morgan');
 const path    = require('path');
 
 (() => {
@@ -8,6 +9,7 @@ const path    = require('path');
     // create test app that serves static from docs/
     let app  = express();
     app.use(express.static(path.join(__dirname, 'docs')));
+    app.use(morgan('dev'));
 
     // listen
     app.listen(port, () => {
