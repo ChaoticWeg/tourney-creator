@@ -1,0 +1,22 @@
+{
+  "name": "tourney-creator",
+  "version": "1.0.0",
+  "description": "Rocket League tournament team randomizer",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaoticweg/tourney-creator.git"
+  },
+  "author": "ChaoticWeg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaoticweg/tourney-creator/issues"
+  },
+  "homepage": "https://github.com/chaoticweg/tourney-creator#readme"
+}
