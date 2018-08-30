@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/chaoticweg/tourney-creator#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
   }
 }
