@@ -10,6 +10,7 @@ function getTeamName (size) {
 // remove all team cards
 function clearTeamCards () {
     $("#teams-output").empty();
+    $("#how-to").show();
 };
 
 // build card for team
@@ -42,6 +43,7 @@ function buildTeamCard (team) {
 
 // add team card to output
 function addTeamCard (card) {
+    $("#how-to").hide();
     $("#teams-output").append(card);
 };
 
