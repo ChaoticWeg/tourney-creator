@@ -57,3 +57,8 @@ $("html").on("randomized", (_, data) => {
         addTeamCard(thisTeam);
     }
 });
+
+// register clear event listener
+$("html").on("clear", () => {
+    clearTeamCards();
+});
